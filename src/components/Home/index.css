@@ -1,0 +1,96 @@
+.container {
+    width: 100vw;
+    margin-left: 50px;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border: none;
+  }
+  
+  .selected {
+    filter: invert(95%) sepia(41%) saturate(6882%) hue-rotate(54deg)
+      brightness(90%) contrast(108%);
+    height: 20px;
+  }
+  
+  .booked {
+    filter: invert(15%) sepia(99%) saturate(7455%) hue-rotate(2deg)
+      brightness(101%) contrast(106%);
+    height: 20px;
+  }
+  
+  .seat {
+    filter: invert(0%) sepia(0%) saturate(1924%) hue-rotate(288deg)
+      brightness(90%) contrast(100%);
+    width: 35px;
+    height: 35px;
+    
+  }
+  
+  .size {
+    width: 35px;
+    height: 35px;
+  }
+  
+  
+  .btn {
+    
+    background-color: grey; /* Green */
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 20px ;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  .btn:hover {
+    background-color: #00f7a6;
+    color: white;
+  }
+  
+  .hover:hover {
+    cursor: pointer;
+    filter: invert(95%) sepia(41%) saturate(6882%) hue-rotate(54deg)
+      brightness(90%) contrast(108%);
+  }
+  
+  .screen-text {
+    padding: 10px;
+    border-bottom: 2px solid black;
+    box-shadow: 0px 5px 5px #888888;
+    margin: 20px;
+  }
+  
+  select {
+    height: 30px;
+    border: 2px solid black;
+    width: 100px;
+    font-size: 16px;
+    text-align: center;
+    background-color: transparent;
+    border-radius: 100px;
+  }
+  
+  label {
+    font-size: 16px;
+  }
+  
+  h3 {
+    padding: 10px;
+  }
+  
+  p {
+    padding: 10px;
+  }
+
+  .price{
+    background-color: red;
+    color: white;
+    
+  }
